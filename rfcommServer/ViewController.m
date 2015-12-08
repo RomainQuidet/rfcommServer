@@ -29,17 +29,17 @@
     DLog(@"");
     self.receiveTextView.editable = NO;
     
+    // Turn on Discoverability
+    if (!IOBluetoothPreferenceGetDiscoverableState()) {
+        IOBluetoothPreferenceSetDiscoverableState(1);
+    }
+    
     // start our RFCOMM server
     BOOL res = [self publishService];
     if (!res) {
         self.receiveTextView.string = @"Error, can't publish RFCOMM server";
     }
     else {
-        // Turn on Discoverability
-        if (!IOBluetoothPreferenceGetDiscoverableState()) {
-            IOBluetoothPreferenceSetDiscoverableState(1);
-        }
-        
         self.receiveTextView.string = @"RFCOMM server ready\r\n";
     }
 }
@@ -88,8 +88,7 @@
 
 - (void)newRFCOMMChannelOpened:(IOBluetoothUserNotification *)inNotification channel:(IOBluetoothRFCOMMChannel *)newChannel {
     DLog(@"");
-    BluetoothRFCOMMChannelID newChannelID = [newChannel getChannelID];
-    if ([inNotification isEqual:self.incomingRFCOMMChannelNotification] && newChannelID == self.rfcommChannelID) {
+    if ([inNotification isEqual:self.incomingRFCOMMChannelNotification]) {
         DLog(@"Good, our RFCOMM channel is in use");
         newChannel.delegate = self;
     }

@@ -14,6 +14,8 @@
 		7AFB74531C17590E00819F0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFB74511C17590E00819F0E /* Main.storyboard */; };
 		7AFB745C1C17596200819F0E /* SerialPortDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AFB745A1C17596200819F0E /* SerialPortDictionary.plist */; };
 		7AFB745D1C17596200819F0E /* SerialPortDictionaryOld.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AFB745B1C17596200819F0E /* SerialPortDictionaryOld.plist */; };
+		7AFB74601C176DBA00819F0E /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFB745F1C176DBA00819F0E /* IOBluetooth.framework */; };
+		7AFB74621C176DC500819F0E /* IOBluetoothUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFB74611C176DC500819F0E /* IOBluetoothUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		7AFB745A1C17596200819F0E /* SerialPortDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SerialPortDictionary.plist; sourceTree = "<group>"; };
 		7AFB745B1C17596200819F0E /* SerialPortDictionaryOld.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SerialPortDictionaryOld.plist; sourceTree = "<group>"; };
 		7AFB745E1C17690400819F0E /* privateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = privateHelper.h; sourceTree = "<group>"; };
+		7AFB745F1C176DBA00819F0E /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		7AFB74611C176DC500819F0E /* IOBluetoothUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetoothUI.framework; path = System/Library/Frameworks/IOBluetoothUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AFB74621C176DC500819F0E /* IOBluetoothUI.framework in Frameworks */,
+				7AFB74601C176DBA00819F0E /* IOBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +76,7 @@
 				7AFB74511C17590E00819F0E /* Main.storyboard */,
 				7AFB74541C17590E00819F0E /* Info.plist */,
 				7AFB74491C17590E00819F0E /* Supporting Files */,
+				7AFB74631C176DCE00819F0E /* Frameworks */,
 			);
 			path = rfcommServer;
 			sourceTree = "<group>";
@@ -82,6 +89,15 @@
 				7AFB744A1C17590E00819F0E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AFB74631C176DCE00819F0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AFB74611C176DC500819F0E /* IOBluetoothUI.framework */,
+				7AFB745F1C176DBA00819F0E /* IOBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
