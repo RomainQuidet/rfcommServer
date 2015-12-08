@@ -84,6 +84,12 @@
     return YES;
 }
 
+#pragma mark - UI interface
+
+- (IBAction)sendButtonTapped:(id)sender {
+    DLog(@"");
+}
+
 #pragma mark - RFCOMM open notification
 
 - (void)newRFCOMMChannelOpened:(IOBluetoothUserNotification *)inNotification channel:(IOBluetoothRFCOMMChannel *)newChannel {

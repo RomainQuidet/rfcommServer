@@ -14,6 +14,8 @@
 @property (nonatomic, weak) IBOutlet NSTextField *sendTextField;
 @property (nonatomic, strong) IBOutlet NSTextView *receiveTextView;
 
+- (IBAction)sendButtonTapped:(id)sender;
+
 
 @end
 
