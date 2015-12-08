@@ -71,7 +71,7 @@
 		</array>
 	</array>
 	<key>0100 - ServiceName*</key>
-	<string>Chat</string>
+	<string>XD_RFCOMM</string>
 	<key>0303 - Supported Formats List</key>
 	<array>
 		<dict>

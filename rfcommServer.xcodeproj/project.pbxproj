@@ -28,6 +28,7 @@
 		7AFB74541C17590E00819F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7AFB745A1C17596200819F0E /* SerialPortDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SerialPortDictionary.plist; sourceTree = "<group>"; };
 		7AFB745B1C17596200819F0E /* SerialPortDictionaryOld.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SerialPortDictionaryOld.plist; sourceTree = "<group>"; };
+		7AFB745E1C17690400819F0E /* privateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = privateHelper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 			children = (
 				7AFB74461C17590E00819F0E /* AppDelegate.h */,
 				7AFB74471C17590E00819F0E /* AppDelegate.m */,
+				7AFB745E1C17690400819F0E /* privateHelper.h */,
 				7AFB744C1C17590E00819F0E /* ViewController.h */,
 				7AFB744D1C17590E00819F0E /* ViewController.m */,
 				7AFB744F1C17590E00819F0E /* Assets.xcassets */,
