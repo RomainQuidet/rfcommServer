@@ -17,6 +17,7 @@
 @property (nonatomic, assign) BluetoothRFCOMMChannelID rfcommChannelID;
 @property (nonatomic, assign) BluetoothSDPServiceRecordHandle SDPServiceRecordHandle;
 @property (nonatomic, strong) IOBluetoothUserNotification *incomingRFCOMMChannelNotification;
+@property (nonatomic, strong) IOBluetoothRFCOMMChannel *currentRFCOMMChannel;
 
 @end
 
@@ -88,6 +89,10 @@
 
 - (IBAction)sendButtonTapped:(id)sender {
     DLog(@"");
+    if (self.sendTextField.stringValue.length > 0) {
+        const char *bytes = [self.sendTextField.stringValue UTF8String];
+        [self.currentRFCOMMChannel writeAsync:(void *)bytes length:self.sendTextField.stringValue.length refcon:nil];
+    }
 }
 
 #pragma mark - RFCOMM open notification
@@ -97,6 +102,7 @@
     if ([inNotification isEqual:self.incomingRFCOMMChannelNotification]) {
         DLog(@"Good, our RFCOMM channel is in use");
         newChannel.delegate = self;
+        self.currentRFCOMMChannel = newChannel;
     }
     else {
         DLog(@"Mhh doesn't seems to be our channel id");
