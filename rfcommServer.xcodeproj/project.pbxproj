@@ -12,6 +12,8 @@
 		7AFB744E1C17590E00819F0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFB744D1C17590E00819F0E /* ViewController.m */; };
 		7AFB74501C17590E00819F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFB744F1C17590E00819F0E /* Assets.xcassets */; };
 		7AFB74531C17590E00819F0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFB74511C17590E00819F0E /* Main.storyboard */; };
+		7AFB745C1C17596200819F0E /* SerialPortDictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AFB745A1C17596200819F0E /* SerialPortDictionary.plist */; };
+		7AFB745D1C17596200819F0E /* SerialPortDictionaryOld.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AFB745B1C17596200819F0E /* SerialPortDictionaryOld.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7AFB744F1C17590E00819F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AFB74521C17590E00819F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7AFB74541C17590E00819F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AFB745A1C17596200819F0E /* SerialPortDictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SerialPortDictionary.plist; sourceTree = "<group>"; };
+		7AFB745B1C17596200819F0E /* SerialPortDictionaryOld.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SerialPortDictionaryOld.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		7AFB74491C17590E00819F0E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7AFB745A1C17596200819F0E /* SerialPortDictionary.plist */,
+				7AFB745B1C17596200819F0E /* SerialPortDictionaryOld.plist */,
 				7AFB744A1C17590E00819F0E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -133,6 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AFB745C1C17596200819F0E /* SerialPortDictionary.plist in Resources */,
+				7AFB745D1C17596200819F0E /* SerialPortDictionaryOld.plist in Resources */,
 				7AFB74501C17590E00819F0E /* Assets.xcassets in Resources */,
 				7AFB74531C17590E00819F0E /* Main.storyboard in Resources */,
 			);

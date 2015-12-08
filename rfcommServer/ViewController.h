@@ -10,6 +10,10 @@
 
 @interface ViewController : NSViewController
 
+@property (nonatomic, weak) IBOutlet NSButton *sendButton;
+@property (nonatomic, weak) IBOutlet NSTextField *sendTextField;
+@property (nonatomic, strong) IBOutlet NSTextView *receiveTextView;
+
 
 @end
 
