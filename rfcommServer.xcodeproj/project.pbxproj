@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AFB74481C17590E00819F0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFB74471C17590E00819F0E /* AppDelegate.m */; };
+		7AFB744B1C17590E00819F0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFB744A1C17590E00819F0E /* main.m */; };
+		7AFB744E1C17590E00819F0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFB744D1C17590E00819F0E /* ViewController.m */; };
+		7AFB74501C17590E00819F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFB744F1C17590E00819F0E /* Assets.xcassets */; };
+		7AFB74531C17590E00819F0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFB74511C17590E00819F0E /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7AFB74431C17590E00819F0E /* rfcommServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rfcommServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFB74461C17590E00819F0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7AFB74471C17590E00819F0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7AFB744A1C17590E00819F0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AFB744C1C17590E00819F0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7AFB744D1C17590E00819F0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7AFB744F1C17590E00819F0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AFB74521C17590E00819F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AFB74541C17590E00819F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AFB74401C17590E00819F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AFB743A1C17590E00819F0E = {
+			isa = PBXGroup;
+			children = (
+				7AFB74451C17590E00819F0E /* rfcommServer */,
+				7AFB74441C17590E00819F0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AFB74441C17590E00819F0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AFB74431C17590E00819F0E /* rfcommServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AFB74451C17590E00819F0E /* rfcommServer */ = {
+			isa = PBXGroup;
+			children = (
+				7AFB74461C17590E00819F0E /* AppDelegate.h */,
+				7AFB74471C17590E00819F0E /* AppDelegate.m */,
+				7AFB744C1C17590E00819F0E /* ViewController.h */,
+				7AFB744D1C17590E00819F0E /* ViewController.m */,
+				7AFB744F1C17590E00819F0E /* Assets.xcassets */,
+				7AFB74511C17590E00819F0E /* Main.storyboard */,
+				7AFB74541C17590E00819F0E /* Info.plist */,
+				7AFB74491C17590E00819F0E /* Supporting Files */,
+			);
+			path = rfcommServer;
+			sourceTree = "<group>";
+		};
+		7AFB74491C17590E00819F0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AFB744A1C17590E00819F0E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AFB74421C17590E00819F0E /* rfcommServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AFB74571C17590E00819F0E /* Build configuration list for PBXNativeTarget "rfcommServer" */;
+			buildPhases = (
+				7AFB743F1C17590E00819F0E /* Sources */,
+				7AFB74401C17590E00819F0E /* Frameworks */,
+				7AFB74411C17590E00819F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rfcommServer;
+			productName = rfcommServer;
+			productReference = 7AFB74431C17590E00819F0E /* rfcommServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AFB743B1C17590E00819F0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = xdappfactory;
+				TargetAttributes = {
+					7AFB74421C17590E00819F0E = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 7AFB743E1C17590E00819F0E /* Build configuration list for PBXProject "rfcommServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AFB743A1C17590E00819F0E;
+			productRefGroup = 7AFB74441C17590E00819F0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AFB74421C17590E00819F0E /* rfcommServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AFB74411C17590E00819F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFB74501C17590E00819F0E /* Assets.xcassets in Resources */,
+				7AFB74531C17590E00819F0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AFB743F1C17590E00819F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFB744E1C17590E00819F0E /* ViewController.m in Sources */,
+				7AFB744B1C17590E00819F0E /* main.m in Sources */,
+				7AFB74481C17590E00819F0E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7AFB74511C17590E00819F0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AFB74521C17590E00819F0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AFB74551C17590E00819F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7AFB74561C17590E00819F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7AFB74581C17590E00819F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = rfcommServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdappfactory.rfcommServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7AFB74591C17590E00819F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = rfcommServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xdappfactory.rfcommServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AFB743E1C17590E00819F0E /* Build configuration list for PBXProject "rfcommServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFB74551C17590E00819F0E /* Debug */,
+				7AFB74561C17590E00819F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AFB74571C17590E00819F0E /* Build configuration list for PBXNativeTarget "rfcommServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFB74581C17590E00819F0E /* Debug */,
+				7AFB74591C17590E00819F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AFB743B1C17590E00819F0E /* Project object */;
+}
